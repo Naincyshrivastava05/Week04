@@ -7,7 +7,7 @@ public class BinaryNumberGenerator {
         List<String> result = new ArrayList<>();
         Queue<String> queue = new LinkedList<>();
 
-        queue.add("1"); // Start with "1"
+        queue.add("1"); // Start with  "1"
 
         for (int i = 0; i < N; i++) {
             String binary = queue.remove(); // Remove front element

@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class BinaryNumberGeneratorTest {
     @Test
+    
     void testGenerateBinaryNumbers() {
         List<String> result = BinaryNumberGenerator.generateBinaryNumbers(5);
         assertEquals(List.of("1", "10", "11", "100", "101"), result);
