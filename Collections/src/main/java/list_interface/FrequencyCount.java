@@ -6,6 +6,7 @@ package list_interface;
         public static Map<String, Integer> countFrequency(List<String> elements) {
             Map<String, Integer> frequencyMap = new HashMap<>();
             for (String element : elements) {
+                //Counting frequency
                 frequencyMap.put(element, frequencyMap.getOrDefault(element, 0) + 1);
             }
             return frequencyMap;

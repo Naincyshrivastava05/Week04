@@ -7,6 +7,7 @@ import java.util.*;
 public class FrequencyCounterTest {
     @Test
     public void testCountFrequency() {
+        //testing
         List<String> input = Arrays.asList("apple", "banana", "apple", "orange");
         Map<String, Integer> expected = new HashMap<>();
         expected.put("apple", 2);
