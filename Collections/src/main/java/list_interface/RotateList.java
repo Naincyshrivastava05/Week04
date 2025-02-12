@@ -23,7 +23,7 @@ public class RotateList {
         Scanner sc = new Scanner(System.in);
         int rotation = sc.nextInt();
         LinkedList<Integer> list = new LinkedList<>(List.of(40,50,60,70,80,90));
-        System.out.println("List before rotation:-"+ list);
-        System.out.println("List after rotation:-"+rotateList(list,rotation));
+        System.out.println("List before rotation:- "+ list);
+        System.out.println("List after rotation:- "+rotateList(list,rotation));
     }
 }
