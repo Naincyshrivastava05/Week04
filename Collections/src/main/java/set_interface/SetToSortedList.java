@@ -5,7 +5,7 @@ import java.util.*;
 public class SetToSortedList {
     public static List<Integer> convertToSortedList(Set<Integer> set) {
         List<Integer> sortedList = new ArrayList<>(set); // Convert set to list
-        Collections.sort(sortedList); // Sort in ascending order
+        Collections.sort(sortedList); // Sort in ascending  order
         return sortedList;
     }
 

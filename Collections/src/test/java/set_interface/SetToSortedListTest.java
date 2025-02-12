@@ -7,6 +7,7 @@ import java.util.*;
 public class SetToSortedListTest {
     @Test
     public void testSortedList() {
+        
         Set<Integer> set = new HashSet<>(Arrays.asList(5, 3, 9, 1));
         List<Integer> expected = Arrays.asList(1, 3, 5, 9);
         assertEquals(expected, SetToSortedList.convertToSortedList(set));
