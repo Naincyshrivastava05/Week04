@@ -23,7 +23,7 @@ public class SubsetCheckerTest {
     public void testEmptySetIsSubset() {
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> set2 = new HashSet<>(Arrays.asList(1, 2, 3, 4));
-        assertTrue(SubSetChecker.isSubset(set1, set2)); // Empty set is always a subset
+        assertTrue(SubSetChecker.isSubset(set1, set2)); //  Empty set is always a subset
     }
 
     @Test

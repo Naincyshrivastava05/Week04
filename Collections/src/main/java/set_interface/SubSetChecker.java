@@ -4,7 +4,7 @@ import java.util.*;
 
 public class SubSetChecker {
     public static boolean isSubset(Set<Integer> set1, Set<Integer> set2) {
-        return set2.containsAll(set1); // Check if set2 contains all elements of set1
+        return set2.containsAll(set1); // Check if set2 contains all elements of  set1
     }
 
     public static void main(String[] args) {
