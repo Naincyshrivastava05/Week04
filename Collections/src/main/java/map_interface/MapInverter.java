@@ -13,7 +13,7 @@ public class MapInverter {
         return invertedMap;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args ) {
         Map<String, Integer> inputMap = new HashMap<>();
         inputMap.put("A", 1);
         inputMap.put("B", 2);

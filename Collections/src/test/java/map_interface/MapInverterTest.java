@@ -23,7 +23,7 @@ class MapInverterTest {
     }
 
     @Test
-    void testInvertMapEmpty() {
+    void testInvertMapEmpty(){
         Map<String, Integer> inputMap = new HashMap<>();
         Map<Integer, List<String>> actualOutput = MapInverter.invertMap(inputMap);
         assertTrue(actualOutput.isEmpty());
