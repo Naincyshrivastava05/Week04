@@ -2,7 +2,7 @@ package map_interface;
 
 import java.util.*;
 
-public class MaxValueKeyFinder {
+public class MaxValueKeyFinder{
     public static String findMaxKey(Map<String, Integer> map) {
             String ans="";
             int max = Integer.MIN_VALUE;

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MaxValueKeyFinderTest {
     @Test
-    void testFindMaxKey() {
+    void testFindMaxKey(){
         Map<String, Integer> inputMap = new HashMap<>();
         inputMap.put("A", 10);
         inputMap.put("B", 20);

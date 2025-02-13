@@ -2,7 +2,7 @@ package map_interface;
 
 import java.util.*;
 
-public class MergeMap {
+public class MergeMap{
     public static Map<String, Integer> mergeMaps(Map<String, Integer> map1, Map<String, Integer> map2) {
         Map<String, Integer> mergedMap = new HashMap<>(map1);
 
