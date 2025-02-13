@@ -7,7 +7,7 @@ public class MergeMap{
         Map<String, Integer> mergedMap = new HashMap<>(map1);
 
         for (Map.Entry<String, Integer> entry : map2.entrySet()) {
-           mergedMap.put(entry.getKey(),mergedMap.getOrDefault(entry.getKey(),0)+1);
+           mergedMap.put(entry.getKey(),mergedMap.getOrDefault(entry.getKey(),0)+ entry.getValue());
         }
 
         return mergedMap;
