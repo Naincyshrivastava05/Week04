@@ -2,7 +2,7 @@ import org.junit.jupiter.api.*;
 import java.io.*;
 import static org.junit.jupiter.api.Assertions.*;
 
-class DataStreamsStudentTest {
+class DataStreamStudentTest {
     private static final String TEST_FILE = "test_student_data.dat";
 
     @BeforeEach
