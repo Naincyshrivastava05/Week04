@@ -13,14 +13,15 @@ public class CustomException{
             System.out.println("Access granted");
         }catch (InvalidAgeException e){
             System.out.println(e.getMessage());
+            throw e;
         }
     }
     public static void main(String[] args) throws InvalidAgeException {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter age");
         int age = sc.nextInt();
-
         validAge(age);
+
 
     }
 }

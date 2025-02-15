@@ -10,6 +10,11 @@ public class CustomExceptionTest {
     @Test
     public void inValidAgeCheck() throws InvalidAgeException {
         int age = 10;
-        assertThrows(InvalidAgeException .class()-> validAge(age));
+        assertThrows(InvalidAgeException.class,()-> validAge(age));
+    }
+    @Test
+    public void validAgeCheck(){
+        int age = 19;
+        assertDoesNotThrow(()->validAge(age));
     }
 }
