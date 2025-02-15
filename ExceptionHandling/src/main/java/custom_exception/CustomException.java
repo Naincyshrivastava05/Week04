@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 
-public class CustomException {
+public class CustomException{
     public static void validAge(int age)throws InvalidAgeException{
         try{
             if(age<18){

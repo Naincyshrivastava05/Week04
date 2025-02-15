@@ -25,7 +25,7 @@ class CheckedExceptionTest {
     }
 
     @Test
-    void testFileNotFound() {
+    void testFileNotFound(){
         new File(TEST_FILE).delete(); // Ensure file does not exist
 
         Exception exception = assertThrows(FileNotFoundException.class, () -> {
