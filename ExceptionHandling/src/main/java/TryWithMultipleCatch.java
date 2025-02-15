@@ -1,7 +1,7 @@
 import  java.lang.*;
 import java.util.Scanner;
 
-public class NullPointerExceptionExample{
+public class TryWithMultipleCatch {
     public static void multipleCatch(int[] arr, int index){
         try{
         if(arr == null || arr.length == 0) {

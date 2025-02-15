@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class CheckedException {
+public class CheckedException{
     public static String readFile(String fileName) throws FileNotFoundException {
         StringBuilder sb = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(fileName))) {
@@ -16,7 +16,7 @@ public class CheckedException {
         return sb.toString().trim();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
         String path = "data.txt";
         try {
             System.out.println(readFile(path));

@@ -6,7 +6,7 @@ class CheckedExceptionTest {
     private static final String TEST_FILE = "test_data.txt";
 
     @BeforeEach
-    void setUp() throws IOException {
+    void setUp() throws IOException{
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(TEST_FILE))) {
             writer.write("Hello, this is a test file.\n");
             writer.write("Reading file content in Java.\n");
