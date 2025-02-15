@@ -5,7 +5,7 @@ import java.io.IOException;
 
 import  static  org.junit.jupiter.api.Assertions.*;
 
-public class TryWithResourcesTest {
+public class TryWithResourcesTest{
     @Test
     public void fileNotFound(){
         String filePath = "org.txt";

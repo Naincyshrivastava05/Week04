@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class TryWithResources{
+public class TryWithResources {
     public static String tryWithResources(String filePath)throws IOException{
             StringBuilder sb = new StringBuilder();
         try(BufferedReader br = new BufferedReader(new FileReader(filePath))){
