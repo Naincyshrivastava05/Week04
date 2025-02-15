@@ -1,10 +1,10 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class NullPointerExceptionTest {
+public class TryWithMultipleCatchTest {
     @Test
     public void nullPointerException(){
-        int arr[] = {};
+        int arr[] =  {};
         assertThrows(NullPointerException.class,()-> TryWithMultipleCatch.multipleCatch(arr,1));
     }
     @Test
