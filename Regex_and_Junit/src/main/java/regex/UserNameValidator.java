@@ -1,3 +1,5 @@
+package regex;
+
 import java.util.Scanner;
 public class UserNameValidator {
     // Regular expression pattern for username validation

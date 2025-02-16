@@ -1,7 +1,11 @@
+package regex;
+
 import org.junit.jupiter.api.Test;
+import regex.UserNameValidator;
+
 import static org.junit.jupiter.api.Assertions.*;
 
-class UsernameValidatorTest {
+class UserNameValidatorTest {
 
     @Test
     void testValidUsernames() {
