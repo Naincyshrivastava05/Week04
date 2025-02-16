@@ -3,7 +3,7 @@ package regex;
 import java.util.regex.*;
 import java.util.*;
 
-public class EmailExtractor {
+public class EmailExtractor{
     // Regex pattern for extracting emails
     private static final String EMAIL_PATTERN = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}";
 

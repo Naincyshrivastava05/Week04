@@ -18,7 +18,7 @@ class EmailExtractorTest{
     }
 
     @Test
-    void testNoEmails() {
+    void testNoEmails(){
         String text = "No emails here, just some random text.";
         List<String> emails = EmailExtractor.extractEmails(text);
 
