@@ -1,6 +1,5 @@
 package junit.advanceJunit;
 
-package advancedjunit;
 
 
 import static org.junit.jupiter.api.Assertions.*;
