@@ -1,11 +1,9 @@
 package junit.advanceJunit;
 
-package advancedjunit;
-
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-class TemperatureConverterTest {
+class TempraturConverterTest {
 
     @Test
     void testCelsiusToFahrenheit() {
