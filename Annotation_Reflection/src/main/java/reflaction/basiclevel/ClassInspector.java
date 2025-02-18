@@ -1,4 +1,4 @@
-package reflaction;
+package reflaction.basiclevel;
 
 import java.lang.reflect.*;
 import java.util.Scanner;

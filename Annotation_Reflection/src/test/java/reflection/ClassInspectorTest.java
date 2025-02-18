@@ -2,7 +2,7 @@ package reflection;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import reflaction.ClassInspector;
+import reflaction.basiclevel.ClassInspector;
 
 class ClassInspectorTest{
     @Test
