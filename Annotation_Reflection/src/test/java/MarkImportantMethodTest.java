@@ -14,7 +14,7 @@ class MarkImportantMethodTest {
         Method[] methods = cls.getDeclaredMethods();
 
         int importantMethodsCount = 0;
-        for (Method method : methods) { 
+        for (Method method : methods) {
             if (method.isAnnotationPresent(ImportantMethod.class)) {
                 ImportantMethod annotation = method.getAnnotation(ImportantMethod.class);
                 assertNotNull(annotation, "Annotation should not be null");
