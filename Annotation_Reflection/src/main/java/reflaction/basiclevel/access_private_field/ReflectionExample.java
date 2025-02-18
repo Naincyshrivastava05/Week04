@@ -6,7 +6,7 @@ public class ReflectionExample {
     public static void main(String[] args) {
         try {
             // Creating a Person object
-            Person person = new Person(25);
+            Person person = new Person("Naincy",25);
             person.displayAge();
 
             // Getting the Class object

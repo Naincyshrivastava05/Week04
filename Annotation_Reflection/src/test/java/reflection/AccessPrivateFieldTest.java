@@ -10,7 +10,7 @@ public class AccessPrivateFieldTest {
 
     @Test
     public void testPrivateFieldModification() throws Exception {
-        Person person = new Person(30);
+        Person person = new Person("Naincy",30);
 
         Class<?> cls = person.getClass();
 
@@ -21,12 +21,12 @@ public class AccessPrivateFieldTest {
         ageField.setAccessible(true);
 
         assertEquals("Naincy", nameField.get(person));
-        assertEquals(22, ageField.get(person));
+        assertEquals(30, ageField.get(person));
 
         nameField.set(person, "Sanjh");
         ageField.set(person, 21);
 
-        assertEquals("Vaishali", nameField.get(person));
+        assertEquals("Sanjh", nameField.get(person));
         assertEquals(21, ageField.get(person));
 
         person.displayAge();
