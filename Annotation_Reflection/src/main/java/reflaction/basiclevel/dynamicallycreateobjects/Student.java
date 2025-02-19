@@ -6,7 +6,7 @@ public class Student {
     private int age;
 
     public Student() {
-        this.name = "Abhishek";
+        this.name = "Naincy";
         this.age = 18;
     }
 
